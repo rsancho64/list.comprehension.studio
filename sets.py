@@ -78,7 +78,17 @@ print(setA ^ setB)
 print(setB.symmetric_difference(setA))
 print(setB ^ setA)
 
+colores = {"R","B","G"}
+print(colores, type(colores))
+colores.add("Y")
+print(colores)
 
+colores = frozenset(colores)
+print(colores, type(colores))
 
+colores = set(colores)
+print(colores, type(colores))
 
+# colores.add("pistacho")
+# print(colores)
 
